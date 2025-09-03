@@ -1,0 +1,5 @@
+INSERT INTO agenda (description) VALUES ('Pauta 01')
+INSERT INTO agenda (description) VALUES ('Pauta 02')
+INSERT INTO agenda (description) VALUES ('Pauta 03')
+INSERT INTO agenda (description) VALUES ('Pauta 04')
+INSERT INTO agenda (description) VALUES ('Pauta 05')
