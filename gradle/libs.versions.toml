@@ -1,0 +1,27 @@
+[versions]
+spring-boot = "3.5.5"
+dependency-management = "1.1.7"
+jetbrains-jvm = "2.1.21"
+
+[libraries]
+h2-database = { group = "com.h2database", name = "h2"}
+r2dbc-h2-database = { group = "io.r2dbc", name = "r2dbc-h2"}
+spring-data-r2dbc = { group = "org.springframework.boot", name = "spring-boot-starter-data-r2dbc"}
+spring-data-redis-reactive = { group = "org.springframework.boot", name = "spring-boot-starter-data-redis-reactive"}
+spring-webflux = { group = "org.springframework.boot", name = "spring-boot-starter-webflux"}
+jackson-module = { group = "com.fasterxml.jackson.module", name = "jackson-module-kotlin"}
+kotlin-extensions = { group = "io.projectreactor.kotlin", name = "reactor-kotlin-extensions"}
+kotlin-reflect = { group = "org.jetbrains.kotlin", name = "kotlin-reflect"}
+kotlinx-coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-reactor"}
+spring-test = { group = "org.springframework.boot", name = "spring-boot-starter-test"}
+reactor-test = { group = "io.projectreactor", name = "reactor-test"}
+kotlin-test = { group = "org.jetbrains.kotlin", name = "kotlin-test-junit5"}
+kotlinx-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test"}
+junit-platform-test = { group = "org.junit.platform", name = "junit-platform-launcher"}
+
+
+[plugins]
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
+dependency-management = { id = "io.spring.dependency-management", version.ref = "dependency-management" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrains-jvm" }
+jetbrains-kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "jetbrains-jvm" }
